@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>bin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <!--<includeBaseDirectory>true</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>target/generated-resources/service-web/lib</directory>
+            <outputDirectory>lib</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/generated-resources/service-web/etc</directory>
+            <outputDirectory>etc</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/generated-resources/service-web/logs</directory>
+            <outputDirectory>logs</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/generated-resources/service-web/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <fileMode>0755</fileMode>
+            <includes>
+                <include>*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+-->
+    <!--tar.gz压缩包下是否生成和项目名相同的根目录-->
+         <includeBaseDirectory>true</includeBaseDirectory>
+         <dependencySets>
+             <dependencySet>
+                 <!--是否把本项目添加到依赖文件夹下-->
+                 <useProjectArtifact>true</useProjectArtifact>
+                 <outputDirectory>lib</outputDirectory>
+                 <!--将scope为runtime的依赖包打包-->
+                 <scope>runtime</scope>
+             </dependencySet>
+         </dependencySets>
+         <fileSets>
+             <fileSet>
+                 <directory>src/main/bin</directory>
+                 <outputDirectory>/</outputDirectory>
+             </fileSet>
+        </fileSets>
+</assembly>

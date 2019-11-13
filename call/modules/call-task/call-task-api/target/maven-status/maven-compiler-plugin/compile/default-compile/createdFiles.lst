@@ -1,0 +1,3 @@
+com\tx\txcall\modules\calltask\api\remote\CallTaskFeignService.class
+com\tx\txcall\modules\calltask\api\fallback\CustomerFallback.class
+com\tx\txcall\modules\calltask\api\natives\CallTaskService.class

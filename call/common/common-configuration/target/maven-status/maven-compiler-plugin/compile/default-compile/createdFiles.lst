@@ -1,0 +1,9 @@
+com\tx\txcall\common\configuration\Swagger2Config.class
+com\tx\txcall\common\configuration\OfficePathConfig$FormartUtil.class
+com\tx\txcall\common\configuration\MybatisPlusConfig.class
+com\tx\txcall\common\configuration\ApplicationConfig.class
+com\tx\txcall\common\configuration\ResourceValues.class
+com\tx\txcall\common\configuration\DruidStatFilter.class
+com\tx\txcall\common\configuration\ResourceConfig.class
+com\tx\txcall\common\configuration\OfficePathConfig.class
+com\tx\txcall\common\configuration\DruidStatViewServlet.class

@@ -1,0 +1,14 @@
+server:
+  port: 8771
+spring:
+  application:
+    name: call-task
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:8790/eureka/
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,4 @@
+com\tx\txcall\common\shiro\JWTFilter.class
+com\tx\txcall\common\shiro\ShiroConfig.class
+com\tx\txcall\common\shiro\JWTToken.class
+com\tx\txcall\common\shiro\MyRealm.class

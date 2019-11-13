@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://192.168.2.100:8090/yonghengee/sc-config.git
+          search-paths: /springcloud-config/config-repo
+          username: 657169572@qq.com
+          password: wyh**321
+          basedir: D:\workspaces\sc-config
+server:
+  port: 8045
