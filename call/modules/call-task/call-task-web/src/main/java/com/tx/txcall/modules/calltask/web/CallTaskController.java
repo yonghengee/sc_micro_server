@@ -25,6 +25,7 @@ public class CallTaskController {
 
     @GetMapping("/call/{id}")
     public CustomerVo callCustomer(@PathVariable("id")Integer customerId){
+        System.out.println("I'm call_task_1");
         return callTaskService.callCustomer(customerId);
     }
 

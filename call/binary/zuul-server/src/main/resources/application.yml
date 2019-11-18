@@ -1,0 +1,17 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: zuul-api-getway
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:8790/eureka/
+zuul:
+  routes:
+    #映射你要代理的服务名称(类似于反向代理)
+    call-task:
+      #服务代理的路径，通过这个路径可以隐藏真实服务的ip，zuul包含了ribbon和hystrix组件
+      path: /zuul-service/**
